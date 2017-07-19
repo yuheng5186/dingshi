@@ -8,6 +8,12 @@
 
 #import "AppDelegate.h"
 
+#import "HomeViewController.h"
+#import "BusinessViewController.h"
+#import "ActivityViewController.h"
+#import "PurchaseViewController.h"
+#import "MySettingViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +23,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window                 = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UITabBarController *tb          = [[UITabBarController alloc]init];
+    self.window.rootViewController  = tb;
+    
+    HomeViewController *homeVC      = [[HomeViewController alloc]init];
+    homeVC.view.backgroundColor     = [UIColor redColor];
+    homeVC.tabBarItem.title         =  @"首页";
+    homeVC.tabBarItem.image         = [UIImage imageNamed:@"homeL"];
+    
+    BusinessViewController *businessVC  = [[BusinessViewController alloc]init];
+    businessVC.view.backgroundColor     = [UIColor greenColor];
+    businessVC.tabBarItem.title         = @"商家";
+    businessVC.tabBarItem.image         = [UIImage imageNamed:@"messageL"];
+    
+    ActivityViewController *activityVC  = [[ActivityViewController alloc]init];
+    activityVC.view.backgroundColor     = [UIColor grayColor];
+    activityVC.tabBarItem.title         = @"活动";
+    activityVC.tabBarItem.image         = [UIImage imageNamed:@"reportL"];
+    
+    PurchaseViewController *purchaseVC  = [[PurchaseViewController alloc]init];
+    purchaseVC.view.backgroundColor     = [UIColor yellowColor];
+    purchaseVC.tabBarItem.title         = @"购卡";
+    purchaseVC.tabBarItem.image         = [UIImage imageNamed:@"BarItemSelected"];
+    
+    MySettingViewController *mySettingVC    = [[MySettingViewController alloc]init];
+    mySettingVC.view.backgroundColor        = [UIColor blueColor];
+    mySettingVC.tabBarItem.title            = @"我的";
+    mySettingVC.tabBarItem.image            = [UIImage imageNamed:@"shopL"];
+    
+    tb.viewControllers                      = @[homeVC,businessVC,activityVC,purchaseVC,mySettingVC];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

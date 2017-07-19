@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PurchaseViewController.h
 //  carWash
 //
 //  Created by Wuxinglin on 2017/7/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PurchaseViewController : UIViewController
 
 @end
-

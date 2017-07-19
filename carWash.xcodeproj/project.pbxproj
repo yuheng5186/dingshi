@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		18B8031F1F1CB0B800B52432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8031E1F1CB0B800B52432 /* main.m */; };
 		18B803221F1CB0B800B52432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803211F1CB0B800B52432 /* AppDelegate.m */; };
-		18B803251F1CB0B800B52432 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803241F1CB0B800B52432 /* ViewController.m */; };
 		18B803281F1CB0B800B52432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B803261F1CB0B800B52432 /* Main.storyboard */; };
 		18B8032A1F1CB0B800B52432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B803291F1CB0B800B52432 /* Assets.xcassets */; };
 		18B8032D1F1CB0B800B52432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B8032B1F1CB0B800B52432 /* LaunchScreen.storyboard */; };
 		18B803381F1CB0B800B52432 /* carWashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803371F1CB0B800B52432 /* carWashTests.m */; };
 		18B803431F1CB0B800B52432 /* carWashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803421F1CB0B800B52432 /* carWashUITests.m */; };
+		18B803531F1CB51D00B52432 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803511F1CB51D00B52432 /* HomeViewController.m */; };
+		18B803541F1CB51D00B52432 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B803521F1CB51D00B52432 /* HomeViewController.xib */; };
+		18B803581F1CB57A00B52432 /* BusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803561F1CB57A00B52432 /* BusinessViewController.m */; };
+		18B803591F1CB57A00B52432 /* BusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B803571F1CB57A00B52432 /* BusinessViewController.xib */; };
+		18B8035D1F1CB5A800B52432 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8035B1F1CB5A800B52432 /* ActivityViewController.m */; };
+		18B8035E1F1CB5A800B52432 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B8035C1F1CB5A800B52432 /* ActivityViewController.xib */; };
+		18B803621F1CB5E200B52432 /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803601F1CB5E200B52432 /* PurchaseViewController.m */; };
+		18B803631F1CB5E200B52432 /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B803611F1CB5E200B52432 /* PurchaseViewController.xib */; };
+		18B803671F1CB61C00B52432 /* MySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B803651F1CB61C00B52432 /* MySettingViewController.m */; };
+		18B803681F1CB61C00B52432 /* MySettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B803661F1CB61C00B52432 /* MySettingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		18B8031E1F1CB0B800B52432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B803201F1CB0B800B52432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B803211F1CB0B800B52432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18B803231F1CB0B800B52432 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18B803241F1CB0B800B52432 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B803271F1CB0B800B52432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B803291F1CB0B800B52432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B8032C1F1CB0B800B52432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,21 @@
 		18B8033E1F1CB0B800B52432 /* carWashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carWashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B803421F1CB0B800B52432 /* carWashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carWashUITests.m; sourceTree = "<group>"; };
 		18B803441F1CB0B800B52432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B803501F1CB51D00B52432 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18B803511F1CB51D00B52432 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		18B803521F1CB51D00B52432 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18B803551F1CB57A00B52432 /* BusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessViewController.h; sourceTree = "<group>"; };
+		18B803561F1CB57A00B52432 /* BusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessViewController.m; sourceTree = "<group>"; };
+		18B803571F1CB57A00B52432 /* BusinessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessViewController.xib; sourceTree = "<group>"; };
+		18B8035A1F1CB5A800B52432 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		18B8035B1F1CB5A800B52432 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		18B8035C1F1CB5A800B52432 /* ActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		18B8035F1F1CB5E200B52432 /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
+		18B803601F1CB5E200B52432 /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
+		18B803611F1CB5E200B52432 /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
+		18B803641F1CB61C00B52432 /* MySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySettingViewController.h; sourceTree = "<group>"; };
+		18B803651F1CB61C00B52432 /* MySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySettingViewController.m; sourceTree = "<group>"; };
+		18B803661F1CB61C00B52432 /* MySettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySettingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +125,21 @@
 			children = (
 				18B803201F1CB0B800B52432 /* AppDelegate.h */,
 				18B803211F1CB0B800B52432 /* AppDelegate.m */,
-				18B803231F1CB0B800B52432 /* ViewController.h */,
-				18B803241F1CB0B800B52432 /* ViewController.m */,
+				18B803501F1CB51D00B52432 /* HomeViewController.h */,
+				18B803511F1CB51D00B52432 /* HomeViewController.m */,
+				18B803521F1CB51D00B52432 /* HomeViewController.xib */,
+				18B803551F1CB57A00B52432 /* BusinessViewController.h */,
+				18B803561F1CB57A00B52432 /* BusinessViewController.m */,
+				18B803571F1CB57A00B52432 /* BusinessViewController.xib */,
+				18B8035A1F1CB5A800B52432 /* ActivityViewController.h */,
+				18B8035B1F1CB5A800B52432 /* ActivityViewController.m */,
+				18B8035C1F1CB5A800B52432 /* ActivityViewController.xib */,
+				18B8035F1F1CB5E200B52432 /* PurchaseViewController.h */,
+				18B803601F1CB5E200B52432 /* PurchaseViewController.m */,
+				18B803611F1CB5E200B52432 /* PurchaseViewController.xib */,
+				18B803641F1CB61C00B52432 /* MySettingViewController.h */,
+				18B803651F1CB61C00B52432 /* MySettingViewController.m */,
+				18B803661F1CB61C00B52432 /* MySettingViewController.xib */,
 				18B803261F1CB0B800B52432 /* Main.storyboard */,
 				18B803291F1CB0B800B52432 /* Assets.xcassets */,
 				18B8032B1F1CB0B800B52432 /* LaunchScreen.storyboard */,
@@ -248,7 +283,12 @@
 			files = (
 				18B8032D1F1CB0B800B52432 /* LaunchScreen.storyboard in Resources */,
 				18B8032A1F1CB0B800B52432 /* Assets.xcassets in Resources */,
+				18B803631F1CB5E200B52432 /* PurchaseViewController.xib in Resources */,
 				18B803281F1CB0B800B52432 /* Main.storyboard in Resources */,
+				18B8035E1F1CB5A800B52432 /* ActivityViewController.xib in Resources */,
+				18B803591F1CB57A00B52432 /* BusinessViewController.xib in Resources */,
+				18B803541F1CB51D00B52432 /* HomeViewController.xib in Resources */,
+				18B803681F1CB61C00B52432 /* MySettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B803251F1CB0B800B52432 /* ViewController.m in Sources */,
+				18B8035D1F1CB5A800B52432 /* ActivityViewController.m in Sources */,
+				18B803621F1CB5E200B52432 /* PurchaseViewController.m in Sources */,
 				18B803221F1CB0B800B52432 /* AppDelegate.m in Sources */,
 				18B8031F1F1CB0B800B52432 /* main.m in Sources */,
+				18B803531F1CB51D00B52432 /* HomeViewController.m in Sources */,
+				18B803581F1CB57A00B52432 /* BusinessViewController.m in Sources */,
+				18B803671F1CB61C00B52432 /* MySettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
